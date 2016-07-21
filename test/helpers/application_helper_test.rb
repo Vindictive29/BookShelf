@@ -5,3 +5,4 @@ class ApplicationHelperTest < ActionView::TestCase
     assert_equal full_title, "BookShelf"
     assert_equal full_title("Help"), "Help | BookShelf"
   end
+  end
